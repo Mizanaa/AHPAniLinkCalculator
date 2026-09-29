@@ -110,7 +110,7 @@ export default function AniLinkAHP() {
     };
   }, [evaluations]);
 
-  const isConsistent = CR < 0.1;
+  const isConsistent = CR < 0.10;
 
   return (
     <div style={{ fontFamily: "Arial, sans-serif", maxWidth: "920px", margin: "24px auto", padding: "24px", color: "#222", backgroundColor: "#fff" }}>
